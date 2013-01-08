@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"     
+    android:id="@+id/classesLayout" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Classes" >
+    
+    <TextView
+        android:id="@+id/class_name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="Verdana"
+        android:text="Class Name" />
+        
+    <Button
+        android:id="@+id/AddCategoryButton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Category (e.g Exams, Homeworks)" />
+
+</RelativeLayout>
